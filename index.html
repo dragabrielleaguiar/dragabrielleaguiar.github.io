@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Gabrielle Aguiar</title>
-<meta name="description" content="Biomédica, terapeuta integrativa e diretora criativa. Beleza é energia.">
+<meta name="description" content="Biomédica, terapeuta integrativa, diretora criativa, empresária e escritora. Beleza é energia.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400;500&display=swap">
@@ -170,6 +170,16 @@ footer .fine{justify-self:end;text-align:right;font-size:.66rem;letter-spacing:.
 
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
 
+.cvbar{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px 28px;padding:16px 22px;border-bottom:1px solid var(--line);font-size:.62rem;letter-spacing:.22em;text-transform:uppercase}
+.cvbar>span{color:var(--muted)}
+.cvbar a{text-decoration:none;color:var(--ink);border-bottom:1px solid var(--taupe);padding-bottom:2px}
+.cvbar .ar{font-family:var(--f-serif);letter-spacing:0;font-size:1rem}
+.philo .lead{font-family:var(--f-script);font-size:2.4rem;line-height:1;color:var(--taupe);margin:0}
+.book{display:flex;gap:18px;align-items:center;margin:6px 0 4px}
+.book img{width:96px;box-shadow:0 10px 24px -10px rgba(0,0,0,.35)}
+.personal .txt .book .bt{font-family:var(--f-serif);font-size:1.25rem;line-height:1.2;color:var(--ink);margin:0}
+.book .small{font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin:6px 0 0}
+.personal .txt a{color:var(--ink)}
 /* Empresas */
 .stats{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line);background:var(--white)}
 .stats div{padding:24px 16px;text-align:center;display:grid;gap:2px}
@@ -219,7 +229,7 @@ footer .fine{justify-self:end;text-align:right;font-size:.66rem;letter-spacing:.
     <div class="hero-copy">
       <div class="top-block">
         <h1>Beleza é <span class="script">energia.</span></h1>
-        <p class="lede">Biomédica, terapeuta integrativa, diretora criativa e empresária. Transformo pessoas e marcas.</p>
+        <p class="lede">Biomédica, terapeuta integrativa, diretora criativa, empresária e escritora. Transformo pessoas e marcas.</p>
       </div>
       <div class="story">
         <span class="label">Minha história</span>
@@ -245,8 +255,9 @@ footer .fine{justify-self:end;text-align:right;font-size:.66rem;letter-spacing:.
     <div><b>+7 anos</b><span>em eventos por todo o Brasil</span></div>
     <div><b>2 empresas</b><span>Energeia Studio e ORA</span></div>
     <div><b>4 pós</b><span>graduações e especializações</span></div>
-    <div><b>Autora</b><span>publicada em 2026</span></div>
+    <div><b>Escritora</b><span>coautora em <i>Magia Negra</i> (2026)</span></div>
   </div>
+  <div class="cvbar"><span>Formação e produção científica</span><a href="http://lattes.cnpq.br/3779027077575280" target="_blank" rel="noopener">Currículo Lattes <span class="ar">→</span></a><a href="https://www.linkedin.com/in/gabrielleaguiarr" target="_blank" rel="noopener">LinkedIn <span class="ar">→</span></a><a href="#abordagem">Ver formação <span class="ar">→</span></a></div>
 
   <section id="servicos">
     <div class="wrap">
@@ -318,7 +329,9 @@ footer .fine{justify-self:end;text-align:right;font-size:.66rem;letter-spacing:.
       <div class="inner">
         <img src="img/s-filosofia.jpg" alt="Retrato de Gabrielle Aguiar olhando pela janela" loading="lazy">
         <h2>Minha filosofia</h2>
-        <p>Acredito que a beleza nasce de dentro. Cada atendimento começa por uma escuta atenta e uma avaliação individual, com base científica e um olhar acolhedor. Meu papel é cuidar de você com segurança, para que se sinta bem na sua própria pele.</p>
+        <p class="lead">Beleza é energia.</p>
+        <p>Acredito que a beleza nasce de dentro e se revela quando corpo, mente e propósito estão em equilíbrio. Por isso uno três olhares: a ciência, que garante segurança e resultado; as práticas integrativas, que cuidam do que não aparece no espelho; e a arte, que transforma essência em imagem.</p>
+        <p>Seja numa pele, numa pessoa ou numa marca, meu trabalho começa pela escuta e termina quando você se reconhece no que vê.</p>
       </div>
     </div>
   </section>
@@ -354,9 +367,10 @@ footer .fine{justify-self:end;text-align:right;font-size:.66rem;letter-spacing:.
     <div class="wrap">
       <div class="grid">
         <div class="txt">
-          <span class="label">Lado criativo</span>
-          <p>Além da clínica, atuo como diretora criativa no meu Studio, atendendo agências e marcas. Há mais de sete anos trabalho em eventos médicos, científicos e corporativos pelo Brasil.</p>
-          <p>Sou autora do ensaio <em>A cura nos três eixos</em>, na coletânea <em>Magia Negra: Narrativas pretas que encantam</em> (2026).</p>
+          <span class="label">Escritora</span>
+          <div class="book"><img src="img/livro-magia-negra.jpg" alt="Capa do livro Magia Negra: narrativas pretas que encantam" loading="lazy"><div><p class="bt"><em>Magia Negra</em><br>narrativas pretas que encantam</p><p class="small">Coletânea, 2026</p></div></div>
+          <p>Escrever também é uma forma de cuidar. Sou coautora da coletânea <em>Magia Negra: Narrativas pretas que encantam</em> (2026), com o ensaio <em>A cura nos três eixos</em>.</p>
+          <p>Antes da biomedicina, a criatividade já era o meu trabalho: há mais de sete anos crio marcas, conteúdos e eventos pelo Brasil, hoje à frente da <a href="studio.html">Energeia Studio</a>.</p>
           <div class="creds"><span>CRBM-5 nº 014404</span><span>RQH G-86949-RS</span></div>
         </div>
         <div class="strip">
