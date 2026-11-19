@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="img/ga-mono.png">
 <title>Gabrielle Aguiar</title>
 <meta name="description" content="Biomédica, terapeuta integrativa, empresária e escritora. Beleza é energia.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,7 +43,10 @@ a:focus-visible{outline:1.5px solid var(--taupe);outline-offset:3px}
 /* topo */
 .top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(246,243,238,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .top .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-block:14px}
-.logo{font-family:var(--f-serif);font-size:1.15rem;letter-spacing:.24em;text-transform:uppercase;text-decoration:none}
+.logo{font-family:var(--f-serif);font-size:1.15rem;letter-spacing:.24em;text-transform:uppercase;text-decoration:none;display:inline-flex;align-items:center;gap:12px}
+.logo img{height:34px;width:auto}
+.hero-mono{width:150px;height:auto;margin-bottom:-6px}
+.foot-mono{width:90px;height:auto;justify-self:center}
 .top nav{display:flex;gap:26px;font-size:.66rem;letter-spacing:.14em}
 .top nav a{text-decoration:none;color:var(--muted)}
 .top nav a:hover{color:var(--ink);text-decoration:underline;text-underline-offset:4px}
@@ -212,7 +216,7 @@ footer .fine{justify-self:end;text-align:right;font-size:.66rem;letter-spacing:.
 <body>
 <header class="top">
   <div class="wrap">
-    <a class="logo" href="#inicio">Gabrielle Aguiar</a>
+    <a class="logo" href="#inicio"><img src="img/ga-mono.png" alt="">Gabrielle Aguiar</a>
     <nav aria-label="Seções">
       <a href="#servicos">Serviços</a>
       <a href="#filosofia">Filosofia</a>
@@ -228,6 +232,7 @@ footer .fine{justify-self:end;text-align:right;font-size:.66rem;letter-spacing:.
   <div class="hero">
     <div class="hero-copy">
       <div class="top-block">
+        <img class="hero-mono" src="img/ga-mono.png" alt="Monograma GA de Gabrielle Aguiar">
         <h1>Beleza é <span class="script">energia.</span></h1>
         <p class="lede">Biomédica, terapeuta integrativa, empresária e escritora. Transformo pessoas e marcas.</p>
       </div>
@@ -412,7 +417,7 @@ footer .fine{justify-self:end;text-align:right;font-size:.66rem;letter-spacing:.
       <a href="#contato">Contato</a><a href="studio.html#projetos">Portfólio</a>
       <a href="#empresas">Empresas</a><a href="https://oracoworking.github.io" target="_blank" rel="noopener">ORA Coworking</a>
     </div>
-    <div class="mid"><span class="logo">Gabrielle Aguiar</span><span class="script">Beleza é energia.</span></div>
+    <div class="mid"><img class="foot-mono" src="img/ga-mono.png" alt=""><span class="logo">Gabrielle Aguiar</span><span class="script">Beleza é energia.</span></div>
     <p class="fine">Biomédica · CRBM-5 nº 014404<br>Porto Alegre/RS · Florianópolis/SC</p>
   </div>
 </footer>
