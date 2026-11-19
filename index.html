@@ -95,6 +95,9 @@ section{padding-block:96px}
 .svc .tags{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:0 .35em;font-family:var(--f-serif);font-style:italic;font-size:1rem;line-height:1.7;color:var(--ink);max-width:32ch}
 .svc .tags li{white-space:nowrap}
 .svc .tags li:not(:last-child)::after{content:" ·";color:var(--taupe)}
+.svc .price{display:flex;align-items:baseline;gap:12px;margin:2px 0 0;padding:8px 18px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.svc .price span{font-size:.58rem;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
+.svc .price b{font-family:var(--f-serif);font-weight:400;font-size:1.6rem;color:var(--ink)}
 .svc .acts{margin-top:auto;padding-top:6px;display:grid;gap:8px;width:100%;max-width:240px}
 @media (max-width:900px){.services{grid-template-columns:1fr}.svc+.svc{border-left:0;border-top:1px solid var(--line)}}
 
@@ -264,7 +267,8 @@ footer .fine{justify-self:end;text-align:right;font-size:.66rem;letter-spacing:.
           <div class="ph"><img src="img/s-velas.jpg" alt="Velas acesas e flores secas junto à janela" loading="lazy"></div>
           <h3>Integrativa</h3>
           <span class="meta">Equilíbrio &amp; bem-estar</span>
-          <p>Práticas integrativas para equilíbrio, autoconhecimento e cuidado com corpo e mente.</p>
+          <p>A consulta integrativa é o começo de tudo, e todo mundo deveria fazer. Do paciente ao empresário, de quem quer cuidar da autoestima a quem quer melhorar a própria empresa: todos precisam de equilíbrio. Conversamos, identificamos o que precisa de atenção e escolhemos juntos as práticas certas para você.</p>
+          <p class="price"><span>Consulta integrativa</span><b>R$ 110</b></p>
           <ul class="tags"><li>Auriculoterapia</li><li>Reiki</li><li>Aromaterapia</li><li>Naturopatia</li></ul>
           <div class="acts"><a class="btn" href="https://api.whatsapp.com/send?phone=5551983330719&amp;text=Oi%2C%20Dra.%20Vim%20pelo%20site%20e%20tenho%20interesse%20na%20Consulta%20Integrativa." target="_blank" rel="noopener">Agendar consulta</a></div>
         </article>
